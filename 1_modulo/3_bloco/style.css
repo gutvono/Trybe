@@ -1,9 +1,16 @@
 body {
     background-color: #eeeeee;
+    width: 800px;
 }
 
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px 0px 0px;
+    padding-left: 50px;
+}
+
+h2 {
+    margin: 0px 0px;
 }
 
 .description {
@@ -12,7 +19,17 @@ h1 {
     font-size: 13px;
 }
 
+.aboutme {
+    float: left;
+    width: 500px;
+}
+
 img {
     border-radius: 100%;
     float: right;
+    width: 250px;
+}
+
+ul {
+    position: end;
 }
