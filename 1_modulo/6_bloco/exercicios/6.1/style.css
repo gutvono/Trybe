@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  border: 1px solid grey;
+  padding: 50px;
+  width: fit-content;
+}
+
+.box-content {
+  padding: 10px;
+}
+
+.box-content label {
+  display: block;
+  padding: 5px;
+}
+
+.box-content input {
+  padding: 5px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+  font-weight: bold;
+}
