@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="container has-text-centered">
+    <h1 class="title">Cadastro BR Fut APP</h1>
+    <p class="subtitle">Aqui você fica sabendo tudo sobre seu time favorito!</p>
+  </header>
+  <main class="container box">
+
+    <form action="" method="get" enctype="multipart/form-data">
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="exemplo@exemplo.com">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Nome completo</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Digite seu nome">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Estado</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option value="sp">São Paulo</option>
+              <option value="mg">Minas Gerais</option>
+              <option value="rj">Rio de Janeiro</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Usuário</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Digite seu usuário">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Senha</label>
+        <div class="control">
+          <input class="input" type="password" placeholder="Digite sua senha">
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="label">Selecione seu time</p>
+        <div class="control">
+          <label class="radio teams">
+            <input type="radio" name="teams" checked>
+            Palmeiras
+          </label>
+          <label class="radio teams">
+            <input type="radio" name="teams">
+            Flamengo
+          </label>
+          <label class="radio teams">
+            <input type="radio" name="teams">
+            Curintia
+          </label>
+          <label class="radio teams">
+            <input type="radio" name="teams">
+            São Paulo
+          </label>
+        </div>
+      </div>
+
+      <p class="label">Foto para cadastro:</p>
+      <div class="file has-name">
+        <label class="file-label">
+          <input class="file-input" type="file" name="resume">
+          <span class="file-cta">
+            <span class="file-icon">
+              <i class="fas fa-upload"></i>
+            </span>
+            <span class="file-label">
+              Selecionar arquivo
+            </span>
+          </span>
+          <span class="file-name">
+            Nome do seu arquivo
+          </span>
+        </label>
+      </div>
+
+      <div class="control">
+        <p class="label">Breve biografia sobre você:</p>
+        <textarea class="textarea has-fixed-size" placeholder="Fixed size textarea"></textarea>
+      </div>
+
+      <div class="field">
+        <label class="label" for="checkbox-noticias"></label>
+        <input type="checkbox" name="promos" id="checkbox-noticias"> Deseja receber notícias do campeonato?
+      </div>
+
+      <button type="submit" class="button is-success is-light">Cadastrar</button>
+      <button type="clear" class="button is-success is-light">Limpar</button>
+    </form>
+  </main>
+</body>
+
+</html>
