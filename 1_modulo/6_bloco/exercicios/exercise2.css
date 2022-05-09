@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+
+}
+
+body {
+  font-family: ubuntu;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 18px;
+    background-color: rgb(216, 242, 253);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(44, 38, 124);
+    color: white;
+  }
+
+  h1, h2, h3 {
+    text-align: center;
+  }
+
+  .ul-header {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 20px 0;
+    justify-content: space-around
+  }
+
+  .main-content {
+    background-color: rgb(225, 241, 247);
+    border: 2px solid white;
+  }
+
+  .main-content p {
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .aside-one, .aside-two, .main-content {
+    margin: 0 15px;
+  }
+
+  footer {
+    text-align: justify;
+    padding: 1px 10px 5px 10px;
+    background-color: rgb(44, 38, 124);
+    color: white;
+  }
+
+  footer h3 {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 480px)
